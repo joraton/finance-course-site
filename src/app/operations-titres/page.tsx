@@ -1,6 +1,6 @@
 import BackToPlanButton from "@/components/content/BackToPlanButton";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, Calculator, TrendingUp, Users, DollarSign } from "lucide-react";
+import { ArrowLeft, ArrowRight, Calculator, TrendingUp, DollarSign } from "lucide-react";
 
 export default function OperationsTitres() {
   return (
@@ -45,14 +45,14 @@ export default function OperationsTitres() {
                     {"Mécanisme"}
                   </h3>
                   <p className="text-green-800 mb-4">
-                    {"L'entreprise augmente son capital en y incorporant une partie de ses réserves. La valeur de l'entreprise ne change pas puisqu'il n'y a aucun nouvel apport."}
+                    {"L’entreprise augmente son capital en y incorporant une partie de ses réserves. La valeur de l’entreprise ne change pas puisqu’il n’y a aucun nouvel apport."}
                   </p>
                   <div className="bg-white border border-green-300 rounded p-4">
                     <h4 className="font-semibold text-green-900 mb-2">Conséquences :</h4>
                     <ul className="text-green-800 space-y-1">
                       <li>• Création de nouvelles actions gratuites</li>
-                      <li>• Diminution de la valeur unitaire de l'action</li>
-                      <li>• Valeur patrimoniale de l'actionnaire inchangée</li>
+                      <li>{"• Diminution de la valeur unitaire de l’action"}</li>
+                      <li>{"• Valeur patrimoniale de l’actionnaire inchangée"}</li>
                       <li>• Aucun impact sur la trésorerie</li>
                     </ul>
                   </div>
@@ -191,12 +191,12 @@ export default function OperationsTitres() {
             
             <div className="bg-red-50 border-l-4 border-red-500 p-6 mb-8">
               <h3 className="text-lg font-semibold text-red-900 mb-3">
-                {"⚠️ Points d'attention"}
+                {"⚠️ Points d’attention"}
               </h3>
-              <ul className="text-red-800 space-y-2">
-                <li>• Ces opérations n'affectent pas la valeur intrinsèque de l'entreprise</li>
-                <li>• L'effet sur le cours peut être temporaire</li>
-                <li>• La liquidité réelle dépend de l'intérêt des investisseurs</li>
+              <ul className="text-red-800 space-y-1">
+                <li>{"• Ces opérations n’affectent pas la valeur intrinsèque de l’entreprise"}</li>
+                <li>{"• L’effet sur le cours peut être temporaire"}</li>
+                <li>{"• La liquidité réelle dépend de l’intérêt des investisseurs"}</li>
                 <li>• Les droits de vote peuvent être affectés différemment</li>
               </ul>
             </div>

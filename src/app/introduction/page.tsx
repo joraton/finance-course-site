@@ -51,25 +51,28 @@ export default function Introduction() {
             
             <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-8">
               <h3 className="text-lg font-semibold text-green-900 mb-4">
-                {"💡 Avantages du rachat d'actions vs dividendes"}
+                {"💡 Avantages du rachat d’actions vs dividendes"}
               </h3>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-green-600 rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-green-800">
-                    <strong>Flexibilité pour l'actionnaire :</strong> L'actionnaire choisit le moment où il récupère sa trésorerie en vendant ou non ses titres, contrairement aux dividendes qui s'imposent à lui.
+                    <strong>{"Flexibilité pour l’actionnaire :"}</strong>{" "}
+                    {"L’actionnaire choisit le moment où il récupère sa trésorerie en vendant ou non ses titres, contrairement aux dividendes qui s’imposent à lui."}
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-green-600 rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-green-800">
-                    <strong>Éviter l'effet cliquet :</strong> Un dividende exceptionnel crée des attentes pour l'année suivante. Sa baisse envoie un signal négatif, ce qui n'est pas le cas pour les rachats d'actions.
+                    <strong>{"Éviter l’effet cliquet :"}</strong>{" "}
+                    {"Un dividende exceptionnel crée des attentes pour l’année suivante. Sa baisse envoie un signal négatif, ce qui n’est pas le cas pour les rachats d’actions."}
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-green-600 rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-green-800">
-                    <strong>Redistribution exceptionnelle :</strong> Permet de redistribuer la trésorerie excédentaire de manière ponctuelle sans créer d'engagement récurrent.
+                    <strong>{"Redistribution exceptionnelle :"}</strong>{" "}
+                    {"Permet de redistribuer la trésorerie excédentaire de manière ponctuelle sans créer d’engagement récurrent."}
                   </p>
                 </div>
               </div>
@@ -80,7 +83,7 @@ export default function Introduction() {
                 {"💡 Point clé"}
               </h3>
               <p className="text-green-800">
-                {"Les rachats d'actions permettent aux actionnaires de choisir le moment où ils souhaitent être rémunérés, contrairement aux dividendes qui s'imposent à tous."}
+                {"Les rachats d’actions permettent aux actionnaires de choisir le moment où ils souhaitent être rémunérés, contrairement aux dividendes qui s’imposent à tous."}
               </p>
             </div>
             
@@ -89,7 +92,7 @@ export default function Introduction() {
             </h2>
             
             <p className="text-gray-700 mb-6">
-              {"En France, les rachats d'actions sont encadrés par l'Autorité des Marchés Financiers (AMF) et doivent respecter certaines limites, notamment celle de 10% du capital pour les programmes de rachat 'au fil de l'eau'."}
+              {"En France, les rachats d’actions sont encadrés par l’Autorité des Marchés Financiers (AMF) et doivent respecter certaines limites, notamment celle de 10% du capital pour les programmes de rachat « au fil de l’eau »."}
             </p>
             
             <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6 mb-8">
@@ -97,7 +100,7 @@ export default function Introduction() {
                 {"⚖️ Cadre légal"}
               </h3>
               <p className="text-yellow-800">
-                {"Les rachats d'actions doivent être approuvés en Assemblée Générale et respecter les règles de transparence et d'égalité entre actionnaires."}
+                {"Les rachats d’actions doivent être approuvés en Assemblée Générale et respecter les règles de transparence et d’égalité entre actionnaires."}
               </p>
             </div>
           </div>

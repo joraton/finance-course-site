@@ -16,7 +16,7 @@ export default function Section1() {
               </div>
             </div>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              {"Section I - Techniques de Rachat d'Actions"}
+              {"Section I - Techniques de Rachat d’Actions"}
             </h1>
             <p className="text-lg text-gray-600">
               {"Les différentes modalités de mise en œuvre des programmes de rachat"}
@@ -25,7 +25,7 @@ export default function Section1() {
           
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              {"1. Programme de rachats d'actions \"au fil de l'eau\""}
+              {"1. Programme de rachats d’actions “au fil de l’eau”"}
             </h2>
             
             <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-6">
@@ -33,10 +33,10 @@ export default function Section1() {
                 {"Principe et réglementation"}
               </h3>
               <p className="text-blue-800 mb-3">
-                {"Programme de rachats d'actions sur 18 mois maximum : achat \"au fil de l'eau\" sur le marché boursier dans la limite de 10% du capital. Cette opération est décidée en Assemblée Générale Ordinaire (AGO)."}
+                {"Programme de rachats d’actions sur 18 mois maximum : achat “au fil de l’eau” sur le marché boursier dans la limite de 10% du capital. Cette opération est décidée en Assemblée Générale Ordinaire (AGO)."}
               </p>
               <p className="text-blue-800">
-                {"Le programme doit être soumis à approbation de l'AMF pour éviter les manipulations de cours."}
+                {"Le programme doit être soumis à approbation de l’AMF pour éviter les manipulations de cours."}
               </p>
             </div>
             
@@ -47,13 +47,13 @@ export default function Section1() {
               <div className="grid md:grid-cols-2 gap-4">
                 <ul className="text-yellow-800 space-y-2">
                   <li>• Régulation du cours de bourse</li>
-                  <li>• Attribution d'actions aux salariés</li>
-                  <li>• Remise d'actions dans le cadre d'opérations financières</li>
+                  <li>{"• Attribution d’actions aux salariés"}</li>
+                  <li>{"• Remise d’actions dans le cadre d’opérations financières"}</li>
                 </ul>
                 <ul className="text-yellow-800 space-y-2">
-                  <li>• Annulation d'actions</li>
+                  <li>{"• Annulation d’actions"}</li>
                   <li>• Conservation des titres</li>
-                  <li>• Financement d'acquisitions</li>
+                  <li>{"• Financement d’acquisitions"}</li>
                 </ul>
               </div>
             </div>
@@ -66,8 +66,8 @@ export default function Section1() {
                 <ul className="text-green-800 space-y-2">
                   <li>{"• Flexibilité temporelle"}</li>
                   <li>{"• Pas de prime à payer"}</li>
-                  <li>{"• Discrétion de l'opération"}</li>
-                  <li>{"• Possibilité d'ajustement"}</li>
+                  <li>{"• Discrétion de l’opération"}</li>
+                  <li>{"• Possibilité d’ajustement"}</li>
                 </ul>
               </div>
               
@@ -76,7 +76,7 @@ export default function Section1() {
                   {"❌ Inconvénients"}
                 </h4>
                 <ul className="text-red-800 space-y-2">
-                  <li>{"• Durée d'exécution longue"}</li>
+                  <li>{"• Durée d’exécution longue"}</li>
                   <li>{"• Impact limité sur le cours"}</li>
                   <li>{"• Risque de manipulation"}</li>
                   <li>{"• Limite de 10% du capital"}</li>
@@ -85,7 +85,7 @@ export default function Section1() {
             </div>
             
             <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              {"2. Offre Publique de Rachat d'Actions (OPRA)"}
+              {"2. Offre Publique de Rachat d’Actions (OPRA)"}
             </h2>
             
             <div className="bg-purple-50 border-l-4 border-purple-500 p-6 mb-6">
@@ -93,7 +93,7 @@ export default function Section1() {
                 {"Principe"}
               </h3>
               <p className="text-purple-800">
-                {"L'entreprise propose à tous ses actionnaires de racheter leurs actions à un prix fixé à l'avance, généralement supérieur au cours de marché (prime de rachat)."}
+                {"L’entreprise propose à tous ses actionnaires de racheter leurs actions à un prix fixé à l’avance, généralement supérieur au cours de marché (prime de rachat)."}
               </p>
             </div>
             
@@ -148,7 +148,7 @@ export default function Section1() {
                       {"Critère"}
                     </th>
                     <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
-                      {"Au fil de l'eau"}
+                      {"Au fil de l’eau"}
                     </th>
                     <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
                       {"OPRA"}

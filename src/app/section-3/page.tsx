@@ -127,7 +127,7 @@ export default function Section3() {
                   <div>
                     <h4 className="font-medium text-red-800 mb-2">{"Inconvénients :"}</h4>
                     <ul className="text-red-700 text-sm space-y-1">
-                      <li>{"• Augmentation du risque financier"}</li>
+                      <li>{"• Augmentation du risque financier par l'endettement"}</li>
                       <li>{"• Coût des intérêts"}</li>
                       <li>{"• Contraintes d'endettement"}</li>
                     </ul>
@@ -308,32 +308,34 @@ export default function Section3() {
             
             <div className="bg-red-50 border border-red-200 rounded-lg p-6 mb-8">
               <h3 className="text-lg font-semibold text-red-900 mb-4">
-                {"⚠️ Limites et inconvénients des rachats d'actions"}
+                {"⚠️ Limites et inconvénients des rachats d’actions"}
               </h3>
               <div className="space-y-4">
                 <div>
                   <h4 className="font-semibold text-red-800 mb-2">Risques financiers</h4>
                   <ul className="text-red-700 space-y-1 ml-4">
-                    <li>• Augmentation du risque financier par l'endettement</li>
-                    <li>• Réduction de la flexibilité financière</li>
-                    <li>• Impact négatif sur la notation de crédit</li>
-                  </ul>
+                     <li>{"• Augmentation du risque financier par l’endettement"}</li>
+                     <li>{"• Réduction de la flexibilité financière"}</li>
+                     <li>{"• Impact négatif sur la notation de crédit"}</li>
+                   </ul>
                 </div>
                 <div>
                   <h4 className="font-semibold text-red-800 mb-2">Opportunités manquées</h4>
                   <ul className="text-red-700 space-y-1 ml-4">
-                    <li>• Renoncement à des investissements potentiellement rentables</li>
-                    <li>• Limitation de la croissance future</li>
-                    <li>• Perte d'avantages concurrentiels</li>
-                  </ul>
+                     <li>{"• Renoncement à des investissements potentiellement rentables"}</li>
+                     <li>{"• Limitation de la croissance future"}</li>
+                     <li>{"• Perte d’avantages concurrentiels"}</li>
+                     <li>{"• Perte d’avantages concurrentiels"}</li>
+                   </ul>
                 </div>
                 <div>
                   <h4 className="font-semibold text-red-800 mb-2">Risques de marché</h4>
                   <ul className="text-red-700 space-y-1 ml-4">
-                    <li>• Mauvais timing d'achat (cours surévalué)</li>
-                    <li>• Signal négatif envoyé au marché</li>
-                    <li>• Manipulation potentielle du cours</li>
-                  </ul>
+                     <li>{"• Mauvais timing d’achat (cours surévalué)"}</li>
+                     <li>{"• Mauvais timing d’achat (cours surévalué)"}</li>
+                     <li>{"• Signal négatif envoyé au marché"}</li>
+                     <li>{"• Manipulation potentielle du cours"}</li>
+                   </ul>
                 </div>
               </div>
             </div>
