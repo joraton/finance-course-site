@@ -20,6 +20,18 @@ const eslintConfig = [
       "next-env.d.ts",
     ],
   },
+  {
+    rules: {
+      "react/no-unescaped-entities": "error",
+      "@typescript-eslint/no-unused-vars": "error",
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-explicit-any": "warn",
+      "react/jsx-key": "error",
+      "react/jsx-no-duplicate-props": "error",
+      "react/jsx-uses-react": "off",
+      "react/react-in-jsx-scope": "off"
+    }
+  }
 ];
 
 export default eslintConfig;
