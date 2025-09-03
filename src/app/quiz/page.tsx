@@ -121,10 +121,10 @@ export default function Quiz() {
   if (showResults) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <div className="max-w-4xl mx-auto px-6 py-8">
-          <BackToPlanButton className="mb-8" />
-          
-          <div className="bg-white rounded-xl shadow-lg p-8 text-center">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+        <BackToPlanButton className="mb-6 sm:mb-8" />
+        
+        <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 lg:p-8 text-center">
             <div className="flex justify-center mb-6">
               <div className="p-4 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full">
                 <Trophy className="w-12 h-12 text-white" />
@@ -199,10 +199,10 @@ export default function Quiz() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="max-w-4xl mx-auto px-6 py-8">
-        <BackToPlanButton className="mb-8" />
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+        <BackToPlanButton className="mb-6 sm:mb-8" />
         
-        <div className="bg-white rounded-xl shadow-lg p-8">
+        <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 lg:p-8">
           <div className="flex justify-between items-center mb-8">
             <div className="text-sm text-gray-500">
               {`Question ${currentQuestion + 1} sur ${questions.length}`}
@@ -284,23 +284,23 @@ export default function Quiz() {
             </div>
           )}
           
-          <div className="flex justify-between items-center">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
             <button
               onClick={prevQuestion}
               disabled={currentQuestion === 0}
-              className="inline-flex items-center gap-2 px-6 py-3 bg-gray-100 text-gray-700 font-medium rounded-lg hover:bg-gray-200 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-gray-100 text-gray-700 font-medium rounded-lg hover:bg-gray-200 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed text-sm sm:text-base w-full sm:w-auto justify-center sm:justify-start"
             >
-              <ArrowLeft className="w-4 h-4" />
+              <ArrowLeft className="w-3 h-3 sm:w-4 sm:h-4" />
               {"Précédent"}
             </button>
             
             <button
               onClick={nextQuestion}
               disabled={!isAnswered}
-              className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white font-medium rounded-lg hover:from-orange-600 hover:to-red-600 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white font-medium rounded-lg hover:from-orange-600 hover:to-red-600 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed text-sm sm:text-base w-full sm:w-auto justify-center sm:justify-start"
             >
               {currentQuestion === questions.length - 1 ? "Terminer" : "Suivant"}
-              <ArrowRight className="w-4 h-4" />
+              <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
             </button>
           </div>
         </div>

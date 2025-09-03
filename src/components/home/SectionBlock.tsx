@@ -27,7 +27,8 @@ export default function SectionBlock({
     purple: "from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700",
     orange: "from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700",
     red: "from-red-500 to-red-600 hover:from-red-600 hover:to-red-700",
-    indigo: "from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700"
+    indigo: "from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700",
+    teal: "from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700"
   };
 
   return (
@@ -36,18 +37,18 @@ export default function SectionBlock({
       transition={{ duration: 0.2 }}
       className="group"
     >
-      <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 border border-gray-100">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-4 flex-1">
-            <div className={`p-3 rounded-lg bg-gradient-to-r ${colorClasses[color as keyof typeof colorClasses]} text-white`}>
-              <Icon className="w-6 h-6" />
+      <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-4 sm:p-6 border border-gray-100">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div className="flex items-start sm:items-center gap-3 sm:gap-4 flex-1">
+            <div className={`p-2 sm:p-3 rounded-lg bg-gradient-to-r ${colorClasses[color as keyof typeof colorClasses]} text-white flex-shrink-0`}>
+              <Icon className="w-5 h-5 sm:w-6 sm:h-6" />
             </div>
             
-            <div className="flex-1">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
+            <div className="flex-1 min-w-0">
+              <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-1 sm:mb-2 leading-tight">
                 {title}
               </h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 {description}
               </p>
             </div>
@@ -55,7 +56,7 @@ export default function SectionBlock({
           
           <Link
             href={href}
-            className={`px-6 py-3 bg-gradient-to-r ${colorClasses[color as keyof typeof colorClasses]} text-white font-medium rounded-lg hover:shadow-lg transition-all duration-200 transform group-hover:scale-105`}
+            className={`px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r ${colorClasses[color as keyof typeof colorClasses]} text-white font-medium rounded-lg hover:shadow-lg transition-all duration-200 transform group-hover:scale-105 text-sm sm:text-base text-center flex-shrink-0`}
           >
             {buttonText}
           </Link>

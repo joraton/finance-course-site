@@ -5,10 +5,10 @@ import { ArrowRight, Lightbulb, Target } from "lucide-react";
 export default function Introduction() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="max-w-4xl mx-auto px-6 py-8">
-        <BackToPlanButton className="mb-8" />
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+        <BackToPlanButton className="mb-6 sm:mb-8" />
         
-        <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
+        <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 lg:p-8 mb-6 sm:mb-8">
           <div className="text-center mb-8">
             <div className="flex justify-center mb-4">
               <div className="p-3 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full">
@@ -103,17 +103,17 @@ export default function Introduction() {
           </div>
         </div>
         
-        <div className="flex justify-between items-center">
-          <div className="text-sm text-gray-500">
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-0">
+          <div className="text-xs sm:text-sm text-gray-500 order-first sm:order-none">
             {"Introduction"}
           </div>
           
           <Link 
             href="/section-1"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-medium rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-200"
+            className="inline-flex items-center gap-1 sm:gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-medium rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-200 text-sm sm:text-base w-full sm:w-auto justify-center sm:justify-start"
           >
             {"Section I"}
-            <ArrowRight className="w-4 h-4" />
+            <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
           </Link>
         </div>
       </div>

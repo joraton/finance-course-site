@@ -5,10 +5,10 @@ import { ArrowLeft, ArrowRight, Calculator, TrendingUp, Users, DollarSign } from
 export default function OperationsTitres() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="max-w-4xl mx-auto px-6 py-8">
-        <BackToPlanButton className="mb-8" />
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+        <BackToPlanButton className="mb-6 sm:mb-8" />
         
-        <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
+        <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 lg:p-8 mb-6 sm:mb-8">
           <div className="text-center mb-8">
             <div className="flex justify-center mb-4">
               <div className="p-3 bg-gradient-to-r from-indigo-500 to-indigo-600 rounded-full">
@@ -203,21 +203,25 @@ export default function OperationsTitres() {
           </div>
         </div>
         
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-0">
           <Link 
-            href="/cas-pratiques" 
-            className="flex items-center gap-2 px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors"
+            href="/section-3"
+            className="inline-flex items-center gap-1 sm:gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-gray-600 text-white font-medium rounded-lg hover:bg-gray-700 transition-all duration-200 text-sm sm:text-base w-full sm:w-auto justify-center sm:justify-start"
           >
-            <ArrowLeft className="w-5 h-5" />
-            {"Cas Pratiques"}
+            <ArrowLeft className="w-3 h-3 sm:w-4 sm:h-4" />
+            {"Section III"}
           </Link>
           
+          <div className="text-xs sm:text-sm text-gray-500 order-first sm:order-none">
+            {"Section IV"}
+          </div>
+          
           <Link 
-            href="/" 
-            className="flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            href="/quiz" 
+            className="inline-flex items-center gap-1 sm:gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-teal-500 to-teal-600 text-white font-medium rounded-lg hover:from-teal-600 hover:to-teal-700 transition-all duration-200 text-sm sm:text-base w-full sm:w-auto justify-center sm:justify-start"
           >
-            {"Retour au plan"}
-            <ArrowRight className="w-5 h-5" />
+            {"Quiz"}
+            <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
           </Link>
         </div>
       </div>

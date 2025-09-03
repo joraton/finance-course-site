@@ -226,10 +226,10 @@ export default function CasPratiques() {
   if (selectedCase === null) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <div className="max-w-4xl mx-auto px-6 py-8">
-          <BackToPlanButton className="mb-8" />
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+          <BackToPlanButton className="mb-6 sm:mb-8" />
           
-          <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
+          <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 lg:p-8 mb-6 sm:mb-8">
             <div className="text-center mb-8">
               <div className="flex justify-center mb-4">
                 <div className="p-3 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full">
@@ -291,22 +291,22 @@ export default function CasPratiques() {
             </div>
           </div>
           
-          <div className="flex justify-between items-center">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
             <Link 
               href="/quiz"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-gray-100 text-gray-700 font-medium rounded-lg hover:bg-gray-200 transition-all duration-200"
+              className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-gray-100 text-gray-700 font-medium rounded-lg hover:bg-gray-200 transition-all duration-200 text-sm sm:text-base w-full sm:w-auto justify-center sm:justify-start"
             >
-              <ArrowLeft className="w-4 h-4" />
+              <ArrowLeft className="w-3 h-3 sm:w-4 sm:h-4" />
               {"Quiz"}
             </Link>
             
-            <div className="text-sm text-gray-500">
+            <div className="text-xs sm:text-sm text-gray-500 order-first sm:order-none">
               {"Cas pratiques"}
             </div>
             
             <Link 
               href="/"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500 to-purple-600 text-white font-medium rounded-lg hover:from-purple-600 hover:to-purple-700 transition-all duration-200"
+              className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-purple-500 to-purple-600 text-white font-medium rounded-lg hover:from-purple-600 hover:to-purple-700 transition-all duration-200 text-sm sm:text-base w-full sm:w-auto justify-center sm:justify-start"
             >
               {"Retour à l'accueil"}
             </Link>
@@ -320,10 +320,10 @@ export default function CasPratiques() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="max-w-4xl mx-auto px-6 py-8">
-        <BackToPlanButton className="mb-8" />
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+        <BackToPlanButton className="mb-6 sm:mb-8" />
         
-        <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
+        <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 lg:p-8 mb-6 sm:mb-8">
           <div className="flex items-center gap-4 mb-8">
             <button
               onClick={() => setSelectedCase(null)}

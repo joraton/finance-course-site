@@ -59,24 +59,24 @@ export default function CoursePlan() {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-16">
-      <div className="text-center mb-12">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-16">
+      <div className="text-center mb-8 sm:mb-12">
         <div className="flex justify-center mb-4">
-          <div className="p-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full">
-            <Target className="w-8 h-8 text-white" />
+          <div className="p-2 sm:p-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full">
+            <Target className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
           </div>
         </div>
         
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
           {"Plan du Cours"}
         </h2>
         
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+        <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
           {"Suivez un parcours structuré pour maîtriser tous les aspects des rachats d'actions en finance d'entreprise."}
         </p>
       </div>
       
-      <div className="space-y-6">
+      <div className="space-y-4 sm:space-y-6">
         {sections.map((section, index) => (
           <SectionBlock
             key={index}
